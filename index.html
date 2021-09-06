@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>VideoCow</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <img id="videocow3" src="VideoCow-removebg-preview.png" />
+    <br />
+    <label id="name"> A video-chat app for two people and cows!</label>
+    <br />
+    <br />
+    <img src="vidcow+.png" id="vidcow1" />
+    <br />
+    <label id="VideoCow"
+      >Upgrade to VideoCow+ for more extraordinary features!</label
+    >
+    <center id="po">
+      <img src="VideoCow-removebg-preview.png" />
+      <br />
+      <br />
+      <br />
+      <input id="username" placeholder="Username:" />
+      <br />
+      <br />
+      <input id="room_name" placeholder="Roomname:" />
+      <br />
+      <br />
+      <button
+        id="button"
+        style="background-color: blue"
+        class="form-control"
+        onclick="next_page()"
+      >
+        Let's Join
+      </button>
+      <br />
+      <br />
+      <br />
+      <br />
+      <h2 id="create">Create a Room</h2>
+      <input id="room_name_create" placeholder="Name Of Room:" />
+      <br />
+      <br />
+      <button
+        id="button1"
+        style="background-color: blue"
+        class="form-control"
+        onclick="create()"
+      >
+        Create
+      </button>
+    </center>
+  </body>
+</html>
